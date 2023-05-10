@@ -246,7 +246,7 @@ void main(void) {
     function logic_loop(now){
         objects[0].position[0] = Math.sin(now);
         objects[0].position[1] = Math.cos(now);
-        objects[0].position[2] = 10 * Math.cos(now + 2);
+        objects[0].position[2] = 15 * Math.cos(now + 2);
 
         objects[0].rotation[1] = Math.cos(now + 2) > 0 ? 0 : 3.14159;
 
