@@ -231,13 +231,13 @@ void main(void) {
     );
 
     var UIObjects = [];
-    /*UIObjects.push(
+    UIObjects.push(
         {
             'buffers': await initBuffers(gl, "quad.obj"),
             'image': loadTexture(gl, "amoogus.png"),
             'position': [0, 0.7]
         }
-    );*/
+    );
 
     let then = 0;
     let lSecond=0;
