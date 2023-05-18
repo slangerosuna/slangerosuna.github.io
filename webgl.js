@@ -1,9 +1,6 @@
 import { initBuffers } from "./init-buffers.js";
 import { drawScene } from "./draw-scene.js";
 
-let cubeRotation = 0.0;
-let deltaTime = 0;
-
 main();
 
 //
@@ -244,6 +241,7 @@ void main(void) {
     let then = 0;
     let lSecond=0;
     let frames=0;
+    let deltaTime=0;
 
     function logic_loop(now){
         objects[0].position[0] = Math.sin(now);
