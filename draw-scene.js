@@ -83,8 +83,14 @@ function drawUIObject(gl, programInfo, object, i){
     mat4.translate(
         modelMatrix, // destination matrix
         modelMatrix, // matrix to translate
-        [object.position[0], object.position[1], 0.0]
+        object.position
     ); // amount to translate
+
+    mat4.scale(
+        modelMatrix,
+        modelMatrix,
+        object.scale
+    );
 
     setPositionAttributeUI(gl, object.buffers, programInfo);
 

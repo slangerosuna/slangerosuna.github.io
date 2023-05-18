@@ -231,11 +231,12 @@ void main(void) {
     );
 
     var UIObjects = [];
-    objects.push(
+    UIObjects.push(
         {
             'buffers': await initBuffers(gl, "quad.obj"),
-            'image': loadTexture(gl, "amoogus.png"),
-            'position': [0, 0.7, 0],
+            'texture': loadTexture(gl, "amoogus.png"),
+            'position': [0.8, 0.8, 0],
+            'scale': [0.2, 0.2, 0.2],
             'rotation': [0, 0, 0]
         }
     );
