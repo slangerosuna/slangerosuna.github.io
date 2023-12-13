@@ -1,12 +1,3 @@
-# 'FAQ' except not really because knowbody else knows anything about this
-## Why did I make this?
-That's a good question, I don't know why the fuck I would make this piece of shit website that's just spinning among us.
+My very good, not at all weird website
 
-## Is this a violation of Copyright law?
-Probably, idk.
-
-## Was making this painful?
-No, I enjoyed it completely
-
-## Was this worth the time it took?
-No
+this was made as a proof of concept for a 3d renderer that was going to be used in a, [so-far incomplete, website for a robotics team I was on](team3045.github.io)
